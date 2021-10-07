@@ -1,0 +1,474 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500,700,900,&display=swap");
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	font-family: Roboto;
+	padding: 0px 30px 0px 30px;
+}
+
+/* ------------------------------ */
+
+.title {
+	font-size: 50px;
+	color: rgb(224, 59, 59);
+	background-color: rgb(85, 235, 85);
+	text-align: center;
+	border-bottom: 5px solid rgb(243, 70, 70);
+	margin: 0px 0px 30px 0px;
+}
+/* ..................................................... */
+.conteiner__color {
+	text-align: center;
+	color: rgb(255, 255, 255);
+	margin: 0px 0px 40px 0px;
+}
+.title__color {
+	color: rgb(255, 99, 71);
+	font-size: 30px;
+}
+.color__one {
+	display: inline-block;
+	width: 300px;
+	background-color: rgb(224, 199, 84);
+}
+.color__two {
+	display: inline-block;
+	width: 300px;
+	background-color: hsla(125, 68%, 65%, 0.726);
+}
+.color__three {
+	background-color: rgba(85, 83, 226, 0.199);
+	display: inline-block;
+	width: 300px;
+}
+/* .....................................background-image.............................. */
+.conteiner__image {
+	text-align: center;
+	margin: 0px 0px 40px 0px;
+}
+.title__image {
+	color: rgb(255, 99, 71);
+	font-size: 30px;
+}
+.image__one {
+	display: inline-block;
+	width: 500px;
+	background-image: url("../img/01.png");
+	margin: 0px 0px 20px 0px;
+}
+.image__two {
+	display: inline-block;
+	width: 500px;
+	background-image: linear-gradient(
+		180deg,
+		rgba(226, 55, 139, 1) 11%,
+		rgba(30, 5, 33, 1) 52%,
+		rgba(90, 95, 227, 1) 100%
+	);
+	margin: 0px 0px 20px 0px;
+}
+.image__three {
+	display: inline-block;
+	width: 500px;
+	background: radial-gradient(
+		circle,
+		rgba(0, 0, 0, 1) 8%,
+		rgba(143, 130, 168, 1) 12%,
+		rgba(226, 55, 139, 1) 18%,
+		rgba(135, 166, 231, 1) 27%,
+		rgba(39, 19, 62, 1) 38%,
+		rgba(90, 95, 227, 1) 100%
+	);
+	margin: 0px 0px 20px 0px;
+}
+.image__four {
+	display: inline-block;
+	width: 500px;
+	background-image: linear-gradient(76deg, rgba(86, 53, 125, 1) 38%, rgba(90, 95, 227, 0.32816876750700286) 100%),
+		url("../img/01.png");
+}
+/* ............................................... */
+.conteiner__repeat {
+	text-align: center;
+	margin: 0px 0px 40px 0px;
+}
+.title__repeat {
+	color: rgb(255, 99, 71);
+	font-size: 30px;
+}
+.repeat__one {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background-image: url("../img/icon.png");
+}
+.repeat__two {
+	display: inline-block;
+	width: 500px;
+	background-image: url("../img/icon.png");
+	background-repeat: no-repeat;
+	margin: 0px 0px 20px 0px;
+}
+.repeat__three {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background-image: url("../img/icon.png");
+	background-repeat: repeat-x;
+}
+.repeat__four {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background-image: url("../img/icon.png");
+	background-repeat: repeat-y;
+}
+.repeat__five {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background-image: url("../img/icon.png");
+	background-repeat: space;
+	background-color: #000;
+}
+.repeat__six {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background-image: url("../img/icon.png");
+	background-repeat: round;
+	background-color: #000;
+}
+/* .......................background-position.......................... */
+.conteiner__position {
+	text-align: center;
+	margin: 0px 0px 40px 0px;
+}
+.title__position {
+	color: rgb(255, 99, 71);
+	font-size: 30px;
+}
+.position__one {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background: url("../img/icon.png") 50% 100% no-repeat;
+	background-color: rgb(0, 0, 0);
+}
+.position__two {
+	display: inline-block;
+	width: 500px;
+	background-image: url("../img/icon.png");
+	margin: 0px 0px 20px 0px;
+	background-repeat: no-repeat;
+	background-position: 0 50%;
+	background-color: rgb(0, 0, 0);
+}
+.position__three {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background-image: url("../img/icon.png");
+	background-repeat: no-repeat;
+	background-position: 50%;
+	background-color: rgb(0, 0, 0);
+}
+.position__four {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background-image: url("../img/icon.png");
+	background-repeat: no-repeat;
+	background-position: 100% 100%;
+	background-color: rgb(0, 0, 0);
+}
+.position__five {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background-image: url("../img/icon.png");
+	background-repeat: repeat-x;
+	background-position: 20px 20px;
+	background-color: rgb(0, 0, 0);
+}
+
+.position__six {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background-image: url("../img/icon.png");
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	background-color: rgb(0, 0, 0);
+}
+/* .............................................................. */
+
+.conteiner__attachment {
+	text-align: center;
+	margin: 0px 0px 40px 0px;
+}
+.title__attachment {
+	color: rgb(255, 99, 71);
+	font-size: 30px;
+}
+.attachment__one {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background: url("../img/zima.jpg");
+}
+.attachment__two {
+	display: inline-block;
+	width: 500px;
+	background-image: url("../img/zima.jpg");
+	background-repeat: no-repeat;
+	margin: 0px 0px 20px 0px;
+	background-position: 0 0;
+	background-attachment: scroll;
+}
+.attachment__three {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background-image: url("../img/zima.jpg");
+	background-attachment: fixed;
+}
+/* .......................................background-size.......................... */
+
+.conteiner__size {
+	text-align: center;
+	margin: 0px 0px 40px 0px;
+}
+.title__size {
+	color: rgb(255, 99, 71);
+	font-size: 30px;
+}
+.size__one {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background: url("../img/zima.jpg");
+}
+.size__two {
+	display: inline-block;
+	width: 500px;
+	background-image: url("../img/zima.jpg");
+	margin: 0px 0px 20px 0px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.size__three {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background-image: url("../img/zima.jpg");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+}
+.size__four {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background-image: url("../img/icon.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+.size__five {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background-image: url("../img/01.png");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.size__six {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background-image: url("../img/icon.png");
+	background-position: 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.size__seven {
+	display: inline-block;
+	width: 500px;
+	margin: 0px 0px 20px 0px;
+	background-image: url("../img/zima.jpg");
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	background-size: 100px 300px;
+}
+/* .............................................. */
+
+.conteiner__last {
+	text-align: center;
+	margin: 0px 0px 40px 0px;
+}
+.title__last {
+	color: rgb(255, 99, 71);
+	font-size: 30px;
+}
+.last__one {
+	display: inline-block;
+	width: 500px;
+	height: 500px;
+	margin: 0px 0px 20px 0px;
+	background: url("../img/icon.png") left repeat, url("../img/zima.jpg") 50%;
+}
+.last__two {
+	display: inline-block;
+	width: 500px;
+	height: 500px;
+	margin: 0px 0px 20px 0px;
+	background: url("../img/unnamed.jpg") no-repeat 0 0, url("../img/unnamed2.jpg") no-repeat 50% 50%,
+		url("../img/unnamed3.jpg") no-repeat 100% 100%, url("../img/zima.jpg") 50% / cover;
+}
+.last__three {
+	display: inline-block;
+	width: 500px;
+	height: 500px;
+	margin: 0px 0px 20px 0px;
+	background: url("../img/icon.png") left repeat-y, url("../img/unnamed.jpg") 100% 50% no-repeat,
+		url("../img/zima.jpg") 50%;
+}
+/* ................................................................................... */
+
+.homework__title {
+	color: rgb(255, 99, 71);
+	font-size: 30px;
+	text-align: center;
+	margin: 0px 0px 20px 0px;
+}
+.list__homework {
+	margin: 0px 0px 40px 0px;
+}
+.list {
+	background: url("../img/icon.png") 100% 0 no-repeat;
+	margin: 0px 0px 10px 0px;
+	width: 150px;
+	padding: 6px 0px 0px 0px;
+	min-height: 27px;
+}
+/* ................................................................... */
+.conteiner__homework {
+	color: #4b4b4b;
+}
+
+.contact {
+	width: 237px;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: 0.15px;
+	margin: 0px 0px 30px 0px;
+}
+.title__contact {
+	width: 205.47px;
+	margin: 0px 0px 28px 0px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.15px;
+}
+.addres {
+	width: 237px;
+	margin: 0px 0px 16px 0px;
+	padding: 0px 0px 10px 35px;
+	background: url("../img/place_24px.png") 0 0 no-repeat;
+	min-height: 16px;
+}
+.number {
+	width: 237px;
+	margin: 0px 0px 16px 0px;
+	padding: 0px 0px 0px 35px;
+	background: url("../img/smartphone_24px.png") 0 0 no-repeat;
+}
+.info {
+	width: 237px;
+	margin: 0px 0px 16px 0px;
+	padding: 0px 0px 0px 35px;
+	background: url("../img/email_24px.png") 0 0 no-repeat;
+}
+.time {
+	width: 237px;
+	margin: 0px 0px 17px 0px;
+	padding: 0px 0px 0px 35px;
+	background: url("../img/timer_24px.png") 0 0 no-repeat;
+}
+/* ............................................................. */
+
+.hero {
+	width: 1440px;
+	padding: 280px 655px 408px 202px;
+	background: url("../img/Heroshot\ 3.png") 0 0 no-repeat;
+	color: #ffffff;
+}
+.contetn__hero {
+	width: 583px;
+}
+.title__hero {
+	font-weight: 900;
+	font-size: 56px;
+	line-height: 56px;
+	margin: 0px 0px 48px 0px;
+}
+.button__hero {
+	color: #ffffff;
+	display: inline-block;
+	width: 211px;
+	background: #c40b0b url("../img/Button\ Treatment\ 48px.png") 100% 0 no-repeat;
+	padding: 12px 48px 12px 19px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	text-transform: uppercase;
+}
